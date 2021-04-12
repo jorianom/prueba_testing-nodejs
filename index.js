@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const creditApi = require("./api");
+const creditApi = require("./routes/api");
 const cors = require("cors");
 
 //middlewares
